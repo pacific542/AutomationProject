@@ -24,6 +24,7 @@ public class LoginPageTest extends TestBase {
 
 	@Test
 	public void verifyLogin() {
+		System.out.println("change 1");
 		Assert.assertTrue(homePage.validateUsername());
 
 	}
