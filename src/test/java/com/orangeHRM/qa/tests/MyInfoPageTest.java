@@ -39,7 +39,7 @@ public class MyInfoPageTest extends TestBase{
 	
 	@AfterMethod
 	public void kill()
-	{
+	{System.out.println("change2");
 		driver.quit();
 	}
 }
