@@ -1,0 +1,5 @@
+com\orangeHRM\qa\util\Utils.class
+com\orangeHRM\qa\pages\MyInfoPage.class
+com\orangeHRM\qa\pages\HomePage.class
+com\orangeHRM\qa\pages\LoginPage.class
+com\orangeHRM\qa\testbase\TestBase.class
