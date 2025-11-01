@@ -9,7 +9,7 @@ public class HomePage extends TestBase {
 
 	By loggedInUser = By.xpath("//*[contains(text(),'user')]");
 	By myInfoLink=By.xpath("//*[@href='/web/index.php/pim/viewMyDetails']");
-
+//Changes DOne BY NItu
 	public boolean validateUsername() {
 
 		return driver.findElement(By.xpath("//*[contains(text(),'')]")).isDisplayed();
