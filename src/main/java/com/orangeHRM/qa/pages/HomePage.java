@@ -1,4 +1,4 @@
-package com.orangeHRM.qa.pages;
+dpackage com.orangeHRM.qa.pages;
 
 import org.openqa.selenium.By;
 
@@ -15,7 +15,7 @@ public class HomePage extends TestBase {
 		return driver.findElement(By.xpath("//*[contains(text(),'')]")).isDisplayed();
 
 	}
-	//Changes DOne BY Manish
+	//Changes DOne BY Manish second chance
 	public MyInfoPage clickOnMyInfo()
 	{
 		driver.findElement(myInfoLink).click();
