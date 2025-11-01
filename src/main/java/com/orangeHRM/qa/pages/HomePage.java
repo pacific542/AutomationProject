@@ -15,6 +15,7 @@ public class HomePage extends TestBase {
 		return driver.findElement(By.xpath("//*[contains(text(),'')]")).isDisplayed();
 
 	}
+	//Changes DOne BY Manish
 	public MyInfoPage clickOnMyInfo()
 	{
 		driver.findElement(myInfoLink).click();
